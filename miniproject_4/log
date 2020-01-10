@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building miniproject_4 0.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ miniproject_4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ miniproject_4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/mg1/Coursera-2016/Projects/parallelism/miniproject_4/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ miniproject_4 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/mg1/Coursera-2016/Projects/parallelism/miniproject_4/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ miniproject_4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/mg1/Coursera-2016/Projects/parallelism/miniproject_4/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ miniproject_4 ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] Surefire report directory: /home/mg1/Coursera-2016/Projects/parallelism/miniproject_4/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.coursera.parallel.OneDimAveragingPhaserTest
+Fuzzy barrier parallel implementation ran 1.134855x faster than the barrier implementation
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 134.726 sec - in edu.coursera.parallel.OneDimAveragingPhaserTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2:16.329s
+[INFO] Finished at: Thu Jul 18 19:41:02 CDT 2019
+[INFO] Final Memory: 28M/1537M
+[INFO] ------------------------------------------------------------------------
